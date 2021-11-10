@@ -55,7 +55,7 @@ JSON.parse(JSON.stringify(array))
 #### Example
 
 ```js
-let array = ["homer, "simpson"];
+let array = ["homer", "simpson"];
 let cloned = this.$helper.clone(array);
 ```
 
@@ -160,14 +160,14 @@ Helper that offers two methods:
 #### `ucfirst`
 
 ```js
-return this.$helper.string.ucfirst("hello);
+return this.$helper.string.ucfirst("hello");
 // result: "Hello"
 ```
 
 #### `lcfirst`
 
 ```js
-return this.$helper.string.lcfirst("Hello);
+return this.$helper.string.lcfirst("Hello");
 // result: "hello"
 ```
 
